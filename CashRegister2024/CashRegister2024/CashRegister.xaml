@@ -4,6 +4,30 @@
              x:Class="CashRegister2024.CashRegister"
              Title="CashRegister">
     <VerticalStackLayout>
+        <HorizontalStackLayout > 
+            <Label
+                Text="BAYOU LIQUOR"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="0.0825"
+                VerticalOptions="Center" 
+                HorizontalOptions="End" />
+            <Label
+                Text="CASH REGISTER"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Label
+                Text="SaleID"
+                VerticalOptions="Center" 
+                HorizontalOptions="End" />
+             <Label
+                 x:Name="lblDate"
+                Text="Today Date"
+                VerticalOptions="Center" 
+                HorizontalOptions="End" />
+        </HorizontalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
